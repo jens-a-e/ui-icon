@@ -53,7 +53,7 @@ module.exports = {
           animateMessage = 'replace default animations with configured';
           animations = o.animate;
         }
-        if(! animations instanceof array) {
+        if(! animations instanceof Array) {
           animateMessage = 'tried to use config for animation but ran into problems!';
           animations = [];
         }
